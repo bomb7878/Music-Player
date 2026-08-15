@@ -333,6 +333,7 @@ public class Window extends JFrame {
 
                 volumeControl.setBackground(Colors.BUTTONS_DARK_THEME.getColor());
                 volumeControl.setForeground(Colors.ACCENT_DARK_THEME.getColor());
+                currentVolumeLabel.setForeground(Colors.BASIC_TEXT_DARK_THEME.getColor());
 
                 isDarkTheme = true;
             } else {
